@@ -1,0 +1,575 @@
+.home-page-body {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* display: grid; */
+    /* grid-template-columns: 53% 47%; */
+    /* width: 84vw; */
+    width: 90vw;
+    margin: auto;
+}
+
+.own-words {
+    color: white;
+}
+
+.p1 {
+    font-family: "Sora", sans-serif;
+    /* font-family: "Black Ops One", system-ui; */
+    /* background: linear-gradient(to right, #8750f7 0%, white 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; */
+    /* font-size: 45px; */
+    font-size: 3.29vw;
+    position: relative;
+    bottom: 45px;
+}
+
+.p2 {
+    background: linear-gradient(to right, #8750f7 0%, white 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    position: relative;
+    /* bottom: 106px; */
+    bottom: 7.86vw;
+    /* font-size: 65px; */
+    font-size: 4.6vw;
+    font-weight: bold;
+}
+
+.p3 {
+    font-family: "Sora", sans-serif;
+    position: relative;
+    /* bottom: 150px; */
+    bottom: 11.2vw;
+    /* font-size: 21.5px; */
+    font-size: 1.558vw;
+
+}
+
+.additional-p3-low-width{
+    display: none;
+}
+
+.hero-logo {
+    /* float: right; */
+    position: relative;
+    box-sizing: border-box;
+    /* bottom: 520px; */
+    /* left: 200px; */
+    left: 35px;
+    /* bottom: 70px; */
+    bottom: 5.1vw;
+    /* height: 550px; */
+    height: 40.3vw;
+}
+
+.cv-links{
+    display: flex;
+    position: relative;
+    /* bottom: 110px; */
+    bottom: 8.29vw;
+}
+
+.cv{
+    font-family: "Sora", sans-serif;
+    border: 0.001px solid #8750f7;
+    color: #8750f7;
+    margin-right: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 30px;
+    /* font-size: 18px; */
+    font-size: 1.32vw;
+    text-decoration: none;
+
+}
+
+.links{
+    position: relative;
+    top: 5px;
+    left: 5px;
+    font-family: "Sora", sans-serif;
+    filter: invert(35%) sepia(83%) saturate(987%) hue-rotate(231deg) brightness(93%) contrast(109%);
+    font-weight: bold;
+    height: 22px;
+    /* height: 1.6133vw; */
+    width: 22px;
+    /* width: 1.6133vw; */
+    border-radius: 100%;
+    margin-right: 30px;
+    text-decoration: none;
+
+}
+
+
+
+.facebook-logo{
+    position: relative;
+    top: 6px;
+    left: 10px;
+    width: 11px;
+    height: 20px;
+    /* height: 1.466vw; */
+    border-radius: 0%;
+}
+
+.linked-in-logo{
+    position: relative;
+    left: 7px;
+    border-radius: 0%;
+    height: 20px;
+    /* height: 1.466vw; */
+    width: 20px;
+}
+
+.links-main-div{
+    display: flex;
+}
+
+.links-outer-layer{
+    position: relative;
+    bottom: 8px;
+    border: 1px solid #8750f7;
+    height: 32px;
+    width: 32px;
+    margin-right: 20px;
+    border-radius: 100%;
+}
+
+.blue-sq-filter a{
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+
+
+/* ...................Web dev works............. */
+
+
+
+.home-page-body-second-page-main-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.web-dev-works-homepage-body{
+    display: flex;
+    position: relative;
+    bottom: 3vw;
+    width: 90vw;
+    /* border: 1px solid red; */
+    justify-content: center;
+    font-family: "Changa", sans-serif;
+    font-weight: 900;
+    font-size: 5vw;
+    color: white;
+    background: linear-gradient(to right, #8750f7 0%, white 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.web-dev-workd-heading-div{
+    display: flex;
+    justify-content: center;
+}
+
+.web-works-div-1{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.web-works-div-1-img{
+    position: relative;
+    top: 6vw;
+    left: 12vw;
+    height: 18vw;
+    /* width: 45vw; */
+    transform: rotate(-10deg);
+    border: 3px solid #8750f7;
+    box-shadow: 4px 30px 100px #8750f7;
+    border-radius: 10px;
+}
+
+.web-works-div-1-img:hover{
+    /* width: 98.9vw; */
+    /* width: 30vw; */
+    /* height: 100vh; */
+    transform: rotate(0deg);
+    transition-duration: 1s;
+    /* position: relative; */
+    /* top: 0px; */
+    /* bottom: 30vw; */
+    /* left: 0px; */
+    /* right: 0px; */
+    /* overflow: auto; */
+    border-radius: none;
+}
+
+.web-works-div-1-text{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 24vw;
+    align-items: center;
+    font-family: "Sora", sans-serif;
+    font-size: 1.3vw;
+    width: 30vw;
+
+}
+
+.web-works-1-heading{
+    font-family: "Zen Dots", sans-serif;
+    font-weight: bold;
+    font-size: 1.4vw;
+    color: white;
+    margin-bottom: 2.5vw;
+    text-shadow: 0px 0px 50px black;
+}
+
+.web-works-1-description{
+    color: #8a8a8ac4;
+    margin-bottom: 2.5vw;
+}
+
+.web-works-1-live-view{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4vw;
+    border: 1px solid #8750f7;
+    width: 12vw;
+    height: 3vw;
+    border-radius: 30px;
+}
+
+.web-works-1-live-view a{
+    text-decoration: none;
+    color: #8750f7;
+}
+
+.view-more-button-mqin-box{
+    display: flex;
+    justify-content: center;
+}
+
+.view-more-button{
+    display: flex;
+    border: 1px solid #8750f7;
+    position: relative;
+    top: 4vw;
+    font-size: 2vw;
+    width: 15vw;
+    height: 3vw;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0.5vw;
+}
+
+.view-more-button a{
+    text-decoration: none;
+    color: #8750f7;
+}
+
+.web-works-div-2{
+    display: flex;
+    margin-bottom: 0px;
+}
+
+.web-works-div-2-img{
+    position: relative;
+    left: 26vw;
+    width: 450px;
+    height:250px;
+}
+
+.web-works-div-2-text{
+    position: relative;
+    left: 12vw;
+
+}
+
+.web-works-div-2-img{
+    transform: rotate(10deg);
+}
+
+.web-works-div-2-responsive{
+    display: none;
+}
+
+
+
+
+
+/* ...................Web dev works............. */
+
+
+
+
+
+
+@media only screen and (max-width:800px){
+
+    .total-page{
+        position: relative;
+        top: 50vw;
+    }
+
+    .home-page-body{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .p1{
+        position: relative;
+        /* bottom: 100px; */
+        bottom: 20.5vw;
+        /* font-size: 30px; */
+        font-size: 6.6vw;
+    }
+
+    .p2{
+        position: relative;
+        /* bottom: 126px; */
+        bottom: 28vw;
+        /* font-size: 40px; */
+        font-size: 9.8vw;
+    }
+
+    .p3{
+        display: none;
+    }
+
+    .additional-p3-low-width{
+        position: relative;
+        /* bottom: 185px; */
+        bottom: 41vw;
+        display: flex;
+        width: 90vw;
+        margin: auto;
+    }
+
+    .p3-low-width{
+        display: flex;
+        color: white;
+        font-size: 17px;
+    }
+
+    .cv-links{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 300px;
+    }
+
+    .hero-logo{
+        display: flex;
+        position: relative;
+        left: 0px;
+        /* bottom: 195px; */
+        bottom: 44vw;
+        /* height: 300px; */
+        height: 76vw;
+        margin: auto;
+    }
+
+    .download-btn{
+        margin: auto;
+        position: relative;
+        top: 7vw;
+        left: 5.5vw;
+        /* top: 40px; */
+    }
+
+    .cv{
+        font-size: 4vw;
+    }
+
+    .links-main-div{
+        display: flex;
+        margin: auto;
+    }
+
+    .links-outer-layer{
+        position: relative;
+        top: 80px;
+        left: 4vw;
+    }
+
+    .home-page-body-second-page-main-box{
+        width: 90.5vw;
+        margin: auto;
+    }
+
+    .web-dev-works-homepage-body{
+        font-size: 10vw;
+        /* border: 1px solid red; */
+        margin-top: 7vw;
+    }
+
+    .web-works-div-1{
+        display: grid;
+        grid-template-columns: 100%;
+        /* border: 1px solid red; */
+        height: 140vw;
+        box-sizing: border-box;
+        object-fit: contain;
+    }
+
+    .web-works-div-1 img{
+        height: 45vw;
+        /* width: 50vw; */
+        transform: none;
+        left:2.7vw;
+    }
+
+    .web-works-div-1-text{
+        justify-content: center;
+    }
+
+    .web-works-1-heading{
+        /* border: 1px solid red; */
+        width: 90vw;
+        font-size: 5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 6vw;
+        bottom: 20vw;
+    }
+
+    .web-works-1-description{
+        /* border: 1px solid red; */
+        position: relative;
+        left: 6vw;
+        height: 55vw;
+        width: 84vw;
+        font-size: 3.2vw;
+        margin-top: -17vw;
+
+    }
+
+    .web-works-1-live-view{
+        position: relative;
+        left:6vw;
+        width: 28vw;
+        height: 8vw;
+        font-size: 4vw;
+        margin-bottom: -8vw;
+    }
+
+    .web-works-div-2{
+        display: none;
+    }
+
+    .web-works-div-2-responsive{
+        display: grid;
+        grid-template-columns: 100%;
+        /* border: 1px solid red; */
+        height: 130vw;
+        box-sizing: border-box;
+        object-fit: contain;
+        height: 140vw;
+        margin-top: -5vw;
+        margin-bottom: 3vw;
+    }
+
+    .web-works-div-2-responsive img{
+        height: 45vw;
+        width: 83vw;
+        transform: none;
+        left:2.7vw;
+    }
+
+    .view-more-button {
+        width: 30vw;
+        height: 8vw;
+    }
+
+    .view-more-button a{
+        font-size: 5vw;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 456px) and  (max-width:800px){
+
+    .p1{
+        position: relative;
+        bottom: 11.5vw;
+    }
+
+    .p2{
+        position: relative;
+        bottom: 20vw;
+    }
+
+    .p3{
+        display: none;
+    }
+
+    .additional-p3-low-width{
+        position: relative;
+        bottom: 22vw;
+    }
+
+    .download-btn{
+        position: relative;
+        top: 40vw;
+    }
+
+    .links-outer-layer{
+        position: relative;
+        top: 46vw
+    }
+
+    .hero-logo{
+        position: relative;
+        bottom: 27vw;
+    }
+
+}
+
+@media only screen and (min-width: 801px) and  (max-width:1073px){
+
+    .total-page{
+        position: relative;
+        top: 17vw;
+    }
+
+    .web-works-div-1-img{
+        height: 22vw;
+        /* width: 40vw; */
+    }
+
+    .web-works-div-2-img{
+        height: 22vw;
+        width: 40vw;
+    }
+
+    .web-works-1-heading{
+        font-size: 2.1vw;
+    }
+
+    .web-works-1-description{
+        font-size: 1.5vw;
+    }
+}
+
+@media only screen and (min-width:801px) and (max-width:889){
+    .total-page{
+        position: relative;
+        top: 100vw;
+    }
+}
+
+
+
+
+

@@ -1,0 +1,227 @@
+.contact-page-main-box {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: auto;
+    width: 85vw;
+}
+.heading-text {
+    font-family: "Black Ops One", system-ui;
+    float: left;
+    font-size: 4.5vw;
+    background: linear-gradient(to right, #8750f7 0%, white 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-transform: capitalize();
+}
+
+.main-heading {
+    border: 2px solid #8750f7;
+    border-radius: 3vw;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4.51vw;
+    animation: glow-border 2s linear infinite;
+}
+
+
+
+@keyframes glow-border {
+    0% {
+        box-shadow: 0 0 10px #8750f7; 
+    }
+    50% {
+        box-shadow: 0 0 20px #8750f7;
+    }
+    100% {
+        box-shadow: 0 0 10px #8750f7;
+    }
+}
+
+
+
+
+.gmail-div {
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 20px; */
+    margin-bottom: 1.5vw;
+
+}
+
+.logo {
+
+    display: flex;
+    height: 22px;
+    /* margin-right: 20px; */
+    margin-right: 1.5vw;
+    /* margin-left: 20px; */
+    margin-left: 1.5vw;
+}
+
+.contact-text {
+    font-family: "Sora";
+    /* font-size: 25px; */
+    font-size: 1.87vw;
+}
+
+.address-text {
+    /* margin-bottom: 40px; */
+    margin-bottom: 3vw;
+}
+
+.phone-logo {
+    /* height: 30px; */
+    height: 2.25vw;
+    filter: invert(35%) sepia(83%) saturate(987%) hue-rotate(231deg) brightness(93%) contrast(109%);
+}
+
+.contact-page-hero {
+    float: right;
+    position: relative;
+    /* bottom: 60px; */
+    bottom: 4.51vw;
+    height: 39.2vw;
+}
+
+.contact-page-links-main-div {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-page-links {
+    display: flex;
+    filter: invert(35%) sepia(83%) saturate(987%) hue-rotate(231deg) brightness(93%) contrast(109%);
+    /* height: 30px; */
+    height: 2.25vw;
+
+}
+
+.contact-page-links-outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #8750f7;
+    border-radius: 100%;
+    /* height: 45px; */
+    height: 3.38vw;
+    /* width: 45px; */
+    width: 3.38vw;
+    /* margin-right: 20px; */
+    margin-right: 1.5vw;
+    /* margin-left: 20px; */
+    margin-left: 1.5vw;
+}
+
+.extra-for-responsive{
+    display:none;
+}
+
+
+
+@media only screen and (max-width: 800px){
+
+    .contact-total-page{
+        position: relative;
+        top: 43vw;
+    }
+
+    .contact-page-main-box{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        bottom: 10vw;
+        margin: auto;
+    }
+
+    .main-heading, .glow-box {
+        font-size: 8vw;
+        margin: auto;
+        margin-bottom: 70px;
+        width: 70vw;
+        margin-top: 4vw;
+        /* position: relative; */
+        /* top: 3vw; */
+    }
+
+    .contact-text{
+        font-size: 4.5vw;
+    }
+
+    .extra-for-responsive{
+        display:flex;
+        position: relative;
+        bottom: 2vw;
+    }
+
+    .contact-page-links-outer{
+        height: 9vw;
+        width: 9vw;
+        margin-right: 5vw;
+        position: relative;
+        left: 2vw;
+        top: 3vw;
+    }
+
+    .contact-page-links-outer a img{
+        height: 6vw;
+    }
+
+    .links-main-prev{
+        display: none;
+    }
+
+    .contact-page-hero{
+        height: 95vw;
+        margin-right: -5vw;
+        margin-top: 7vw;
+
+    }
+
+    .gmail-div img{
+        margin-right: 4vw;
+    }
+
+    .phone-div,.address-text{
+        margin-top: 6vw;
+    }
+
+    .phone-div img{
+        height: 8vw;
+    }
+
+    .address-text{
+        /* border: 1px solid red; */
+        width: 88vw;
+    }
+
+}
+
+
+@media only screen and (min-width: 801px) and (max-width: 889px){
+    .contact-total-page{
+        position: relative;
+        top: 10vw;
+    }
+}
+
+
+
+/* scroll bar  */
+
+
+::-webkit-scrollbar{
+    background-color: #2a1454;
+    width: 10px;
+}
+
+:root{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #8750f7;
+    width: 5px;
+    border-radius: 50px;
+}
+
+

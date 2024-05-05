@@ -1,0 +1,81 @@
+.educationcard-main-div{
+    padding-top: 2.1vw;
+    border: 1px solid #8750f7;
+
+}
+
+.year-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #8750f7;
+    width: 7vw;
+    height: 1.4vw;
+    font-size: 1vw;
+    margin-left: 2.4vw;
+    margin-bottom: 0.8vw;
+}
+
+.name-section{
+    /* border: 1px solid yellow; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    font-size: 1.45vw;
+    width: 15vw;
+    margin-left: 2vw;
+    margin-bottom: 0.8vw;
+}
+
+.description-section{
+    /* border: 1px solid yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.05vw;
+    width: 19vw;
+    margin-left: 2vw;
+    margin-bottom: 1.5vw;
+}
+
+@media only screen and (max-width:800px){
+
+    .year-section{
+        font-size: 4vw;
+        width: 32vw;
+        height: 6vw;
+        margin-bottom: 3vw;
+        margin-top: 3vw;
+    }
+
+    .name-section{
+        /* border: 1px solid red; */
+        width: 84vw;
+        font-size: 4.9vw;
+        font-weight: bold;
+    }
+
+    .description-section{
+        /* border: 1px solid red; */
+        width: 84vw;
+        height: 21vw;
+        font-size: 4.5vw;
+        margin-top: 2vw;
+        margin-bottom: 3vw;
+    }
+}
+
+@media only screen and (min-width:417px) and (max-width:800px){
+
+    .educationcard-main-div{
+        width: 89.6vw;
+    }
+
+}
+
+@media only screen and (max-width:680px){
+
+    .educationcard-main-div{
+        width: 89.5vw;
+    }
+}

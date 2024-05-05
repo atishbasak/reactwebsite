@@ -1,0 +1,110 @@
+
+/* Base styles */
+.education-main-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 90%;
+    /* Adjust width as needed */
+    margin: auto;
+    position: relative;
+    bottom: 10vh;
+}
+
+.education-hero {
+    max-width: 90%;
+    /* Responsive image */
+    height: auto;
+    margin: auto;
+    margin-bottom: 2vw;
+    margin-top: 1vw;
+    margin-left: 4vw;
+}
+
+.education-text-div {
+    /* border: 2px solid #8750f7; */
+    color: #8750f7;
+    font-family: "Sora", sans-serif;
+    padding: 20px;
+    padding-left: 30px;
+    border-radius: 20px;
+    /* height: 32vw; */
+    /* padding-bottom: 0px; */
+}
+
+.edu-heading {
+    display: flex;
+    font-family: "Black Ops One", system-ui;
+    font-size: 10vw;
+    background: linear-gradient(to right, #8750f7 0%, white 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-transform: capitalize;
+    justify-content: center;
+    margin-bottom: 4vw;
+}
+
+.underline {
+    text-decoration: 3px underline #8750f7;
+}
+
+
+
+/* Responsive margin classes */
+.margin-gap-low {
+    margin-bottom: 2vw;
+    /* Responsive margin */
+}
+
+.margin-gap-high {
+    margin-bottom: 4vw;
+    /* Responsive margin */
+}
+
+.margin-gap-moderate {
+    margin-left: 2vw;
+    /* Responsive margin */
+}
+
+.heading-font {
+    color: white;
+    font-size: 4.5vw;
+    /* Responsive font size */
+}
+
+/* Media queries for responsiveness */
+@media screen and (min-width: 768px) {
+    .education-main-box {
+        grid-template-columns: 38% 4% 55.5%;
+        /* Adjust for larger screens */
+        width: 80%;
+        /* Adjust width as needed */
+        position: relative;
+        bottom: 5vh;
+
+    }
+
+    .education-text-div{
+        font-size: 1.5vw;
+        position: relative;
+        bottom: 2vw;
+    }
+
+    .edu-heading {
+        font-size: 4vw;
+        /* Reset font size for larger screens */
+        margin-bottom: 40px;
+        /* Reset margin for larger screens */
+    }
+
+    .margin-gap-low,
+    .margin-gap-high,
+    .margin-gap-moderate {
+        margin-bottom: 1vw;
+        /* Reset margin for larger screens */
+    }
+
+    .heading-font {
+        font-size: 19px;
+        /* Reset font size for larger screens */
+    }
+}

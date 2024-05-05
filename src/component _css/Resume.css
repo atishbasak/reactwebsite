@@ -1,0 +1,857 @@
+.resume-main-div {
+    /* border: 1px solid yellow; */
+    display: flex;
+    width: 83vw;
+    /* height: 77vh; */
+    height: 36.7vw;
+    margin: auto;
+    position: relative;
+    bottom: 40px;
+    position: relative;
+    bottom: 5vw;
+    /* overflow-x: hidden; */
+}
+
+
+/* .....................resume-sidebar.............................................  */
+
+/* .resume-sidebar,
+.resume-hero,
+.resume-description {
+    border: 1px solid red;
+} */
+
+.resume-hero {
+    box-shadow: -0.7vw -0.5vw 15px #2a1454;
+}
+
+.resume-sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1.5px solid #8750f7;
+    background-color: #2a1454;
+    border-radius: 20px;
+    width: 5.3vw;
+    height: 21vw;
+    position: relative;
+    left: 1.5px;
+    top: 1vw;
+    /* bottom: 3vw; */
+}
+
+.positioning-div {
+    position: relative;
+    top: 1vw;
+}
+
+.about-img-small a {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #8750f7;
+    height: 3vw;
+    margin-bottom: 2vw;
+    text-decoration: none;
+    /* position: relative;
+    top: 1vw; */
+}
+
+.about-img-small-img {
+    /* border: 1px solid blue; */
+    filter: invert(97%) sepia(0%) saturate(4213%) hue-rotate(237deg) brightness(108%) contrast(109%);
+    height: 1.5vw;
+    width: 1.5vw;
+    margin-bottom: 0.5vw;
+    /* width: 72px; */
+}
+
+.about-sidebar-descripction {
+    font-size: 0.95vw;
+    /* font-family: "Zen Dots", sans-serif; */
+    font-family: "Sora", sans-serif;
+
+}
+
+/* .....................resume-sidebar.............................................  */
+
+
+
+
+/* .....................resume-hero..............................................  */
+
+.resume-hero {
+    display: flex;
+    flex-direction: column;
+    /* height: 39vw; */
+    height: 36.5vw;
+    width: 32vw;
+    border: 1.5px solid #8750f7;
+    border-radius: 20px;
+    margin-left: 0.2px;
+    /* background-image: url('D:\portfolio website with react\portfolio-website\public\images\riki photo.jpg'); */
+    background-image: url('D:\portfolio-website-with-react\portfolio-website\public\images\atish.png');
+    background-repeat: no-repeat;
+    background-size: 32.0053vw 25vw;
+    background-position: 0vw 0vw;
+    overflow: hidden;
+
+    /* border-radius: 18px; */
+}
+
+/* .profile-hero-main-div {
+    background-image: url('D:\portfolio website with react\portfolio-website\public\images\riki photo.jpg');
+    background-repeat: no-repeat;
+    background-size: 32.0053vw 25vw;
+    background-position: 0vw 0vw;
+    border-radius: 18px;
+    height: 36.5vw;
+    width: 32vw;
+    overflow: hidden;
+} */
+
+/* .rotated-div {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-flow: row;
+    overflow: hidden;
+} */
+
+.rotated-div-left,
+.rotated-div-right {
+    background-color: #8750f7;
+    position: relative;
+    /* top: 19.9vw; */
+    width: 30vw;
+    /* height: 17.5vh; */
+    height: 8.3vw;
+}
+
+.rotated-div-left {
+    background-color: #8750f7;
+    position: relative;
+    top: 20vw;
+    right: 6vw;
+    transform: rotate(13deg);
+}
+
+.rotated-div-right {
+    position: relative;
+    top: 12vw;
+    left: 8vw;
+    transform: rotate(-8deg);
+}
+
+.lower-div {
+    position: relative;
+    top: 4.8vw;
+    background-color: #8750f7;
+    width: 32vw;
+    /* height: 34.70vh; */
+    height: 15.08vw;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+
+.horizontal-rool {
+    border: 0.5px solid black;
+    /* border-image: linear-gradient(to right,#8750f7, black, #8750f7); */
+    margin-top: 1.6vw;
+}
+
+.profile-hero {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.resume-hero-lower-div-1 {
+    /* border: 1px solid black; */
+    height: 9vw;
+    width: 31.8vw;
+}
+
+.lower-name-div,
+.lower-animate-description-div,
+.lower-links-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* border: 1px solid green; */
+
+}
+
+.lower-name-div {
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-size: 2.6vw;
+    /* font-weight: bold; */
+    padding-top: 0.8vw;
+}
+
+.lower-animate-description-div {
+    font-size: 1.3vw;
+    margin-bottom: 0.8vw;
+    margin-top: 0.5vw;
+}
+
+.cursor-typer {
+    color: black;
+}
+
+.lower-animate-description-div {
+    color: black;
+    font-size: 1.3vw;
+    margin-bottom: 0.8vw;
+    margin-top: 0.5vw;
+    font-family: "Sora", sans-serif;
+}
+
+
+.lower-links-div {
+    display: flex;
+    margin-left: 1vw;
+}
+
+.lower-links-div a img {
+    height: 1.1vw;
+    margin-right: 1vw;
+}
+
+.resume-hero-lower-div-2 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5vw;
+    text-decoration: none;
+    color: black;
+}
+
+.resume-hero-lower-div-2 {
+    font-family: "Sora", sans-serif;
+}
+
+.resume-hero-lower-div-2 a img {
+    height: 1.1vw;
+    margin-left: 1vw;
+}
+
+/* .....................resume-hero..............................................  */
+
+
+
+/* .....................resume-description........................................  */
+
+
+.resume-description-main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8750f7;
+    /* border: 1px solid red; */
+}
+
+.resume-description {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 1px;
+    background-color: #2a1454;
+    border: 1px solid #8750f7;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* width: 45.3vw; */
+    width: 45.9vw;
+    /* height: 31vw; */
+    height: 34.5vw;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.resume-headings {
+    border: 1px solid #8750f7;
+    display: flex;
+    /* width: 44.5vw; */
+    width: 10.5vw;
+    align-items: center;
+    /* width: 22.46vw; */
+    width: 42.49999vw;
+    height: 5vw;
+    color: white;
+    font-family: "Zen Dots", sans-serif;
+    font-size: 1.5vw;
+    padding-left: 2vw;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+    background-image: linear-gradient(to right, #2a1454 0%, #8750f7 80%, #2a1454 100%);
+
+}
+
+.resume-description-down {
+    display: flex;
+}
+
+.resume-description-left,
+.resume-description-right {
+    /* border: 1px solid green; */
+    font-family: "Sora", sans-serif;
+    width: 22.4vw;
+}
+
+.resume-description-left-1,
+.resume-description-left-2,
+.resume-description-right-1,
+.resume-description-right-2 {
+    border: 1px solid #8750f7;
+    font-family: "Sora", sans-serif;
+}
+
+.resume-description-left-1,
+.resume-description-left-1 {
+    display: flex;
+    align-items: center;
+    width: 20.3vw;
+    height: 4vw;
+    color: white;
+    font-size: 1.25vw;
+    padding-left: 2vw;
+}
+
+.resume-description-left-1 img {
+    filter: invert(97%) sepia(0%) saturate(4213%) hue-rotate(237deg) brightness(108%) contrast(109%);
+}
+
+.resume-description-right-1 {
+    display: flex;
+    align-items: center;
+    width: 20.1vw;
+    height: 4vw;
+    color: white;
+    font-size: 1.25vw;
+    padding-left: 2vw;
+}
+
+.resume-description-right-1 img {
+    filter: invert(97%) sepia(0%) saturate(4213%) hue-rotate(237deg) brightness(108%) contrast(109%);
+}
+
+.resume-description-right-2 {
+    width: 22.1vw;
+}
+
+.resume-description-left-1 img {
+    height: 2.5vw;
+    margin-right: 1vw;
+
+}
+
+.resume-description-right-1 img {
+    height: 2.5vw;
+    margin-right: 1vw;
+}
+
+.education-div {
+    height: 43.3vw;
+    /* border: 1px solid red; */
+}
+
+.resume-card-grid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.skill-div {
+    padding-bottom: 1.49vw;
+    height: 44.1vw;
+    overflow-y: auto;
+}
+
+.resume-description-right-2-know {
+    padding-top: 1.7vw;
+    padding-bottom: 3vw;
+    height: 19vw;
+}
+
+.know-list {
+    display: flex;
+    padding-left: 2.2vw;
+    padding-top: 0.5vw;
+    font-size: 1.17vw;
+}
+
+.know-list-tick {
+    margin-right: 1vw;
+}
+
+.lang-list-circle {
+    display: flex;
+}
+
+.lang-list-description,
+.lang-list-circle {
+    /* margin-left: 3vw; */
+    margin-bottom: 1vw;
+    font-size: 1.17vw;
+}
+
+.lang-list-circle-divs {
+    height: 1vw;
+    width: 1vw;
+    border-radius: 100%;
+    background-color: #8750f7;
+    margin-right: 0.8vw;
+}
+
+.language-div {
+    position: relative;
+    /* padding-top: 3vw; */
+    /* top: 2vw; */
+    height: 12.75vw;
+    height: 12.92vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid yellow; */
+}
+
+.language-div-positioning {
+    /* border: 1px solid red; */
+    width: 18vw;
+    height: 13vw;
+}
+
+.quote-section {
+    /* margin-left: 2vw; */
+    font-family: "Sora", sans-serif;
+    padding-bottom: 1.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.15vw;
+}
+
+.quote-section-color-div {
+    border: 1px solid #8750f7;
+    padding-top: 2vw;
+    width: 44.5vw;
+}
+
+.quote-section-color-div-for-responsive{
+    display: none;
+}
+
+
+
+
+/* .....................resume-description........................................  */
+
+
+
+
+
+/* .............for responsive design ........ */
+
+
+@media only screen and (max-width:1382px) {
+
+    .resume-headings {
+        width: 42.4vw;
+    }
+
+    .resume-description-right {
+        width: 15vw;
+    }
+
+    .resume-description-right-1 {
+        width: 20vw;
+    }
+
+    .resume-description-right-2 {
+        width: 22vw;
+    }
+
+    .quote-section-color-div {
+        width: 44.4vw;
+    }
+}
+
+
+
+@media only screen and (max-width:800px) {
+
+    /* .resume-main-div{
+        border: 1px solid red;
+        height: 1900vw;
+    } */
+
+    .resume-total-page{
+        position: relative;
+        top: 40vw;
+    }
+
+    .resume-main-div {
+        /* border: 1px solid #8750f7; */
+        display: grid;
+        grid-template-columns: 100%;
+        /* flex-direction: column; */
+        /* align-items: flex-start; */
+        margin: auto;
+        /* border: 1px solid red; */
+        width: 90vw;
+        /* height: 90vw; */
+        height: 732vw;
+    }
+
+    .resume-sidebar {
+        width: 89vw;
+        height: 20vw;
+        /* padding-left: 1vw; */
+        /* margin: auto; */
+    }
+
+    .positioning-div {
+        display: flex;
+        /* margin: auto; */
+        height: 10vw;
+        justify-content: center;
+        align-items: center;
+        /* margin-left: 10vw; */
+        /* border: 1px solid red; */
+        padding-left: 8vw;
+    }
+
+    .about-img-small a {
+        height: 8vw;
+        margin-right: 8vw;
+    }
+
+    .about-img-small-img {
+        height: 10vw;
+        width: 10vw;
+        margin-bottom: 2vw;
+    }
+
+    .about-sidebar-descripction {
+        font-size: 4vw;
+    }
+
+    .resume-hero {
+        height: 123vw;
+        width: 90vw;
+        background-size: 90vw 67vw;
+        margin-top: 4vw;
+    }
+
+    .lower-div {
+        /* border: 1px solid red; */
+        width: 90vw;
+        height: 55vw;
+        position: relative;
+        top: 28vw;
+    }
+
+    .rotated-div-left {
+        width: 90vw;
+        height: 20vw;
+        position: relative;
+        top: 64.7vw;
+        transform: rotate(12deg);
+
+    }
+
+    .rotated-div-right {
+        width: 90vw;
+        height: 20vw;
+        position: relative;
+        top: 44.7vw;
+        transform: rotate(-9deg);
+    }
+
+    .resume-hero-lower-div-1{
+        height: 35vw;
+    }
+
+    .lower-name-div,.lower-animate-description-div,.lower-links-div{
+        width: 90vw;
+    }
+
+    .lower-name-div{
+        font-size: 10vw;
+        height: 8vw;
+        margin-top: 3vw;
+        margin-bottom: 4vw;
+    }
+
+    .lower-animate-description-div{
+        font-size: 5vw;
+        margin-bottom: 4vw;
+
+    }
+
+    .lower-links-div{
+        position: relative;
+        right: 3vw;
+    }
+
+    .lower-links-div a img{
+        height: 6vw;
+        margin-left: 5vw;
+    }
+
+    .resume-hero-lower-div-2 a{
+        font-size: 5vw;
+    }
+
+    .resume-hero-lower-div-2 a img{
+        height: 4vw;
+        padding-left: 2vw;
+    }
+
+    .horizontal-rool{
+        margin-bottom: 5vw;
+    }
+
+    .resume-description-main-div{
+        width: 90vw;
+        /* border: 1px solid red; */
+    }
+
+    .resume-description{
+        width: 90vw;
+        height: 575vw;
+        /* border-radius: 20px; */
+        /* border-top-left-radius: none; */
+        /* border-top-right-radius: none; */
+        overflow: none;
+        margin-bottom: 5vw;
+        border-radius: 20px;
+        margin-top: 3vw;
+    }
+    
+    .resume-description-down{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .resume-headings{
+        /* width: 85vw; */
+        width: 87.2vw;
+        height: 13vw;
+        font-size: 10vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .resume-description-left-1,.resume-description-right-1{
+        width: 87.2vw;
+        font-size: 6vw;
+        height: 14vw;
+    }
+
+    .resume-description-left-2,.resume-description-right-2{
+        width: 89.3vw;
+    }
+
+    .resume-description-left-1 img{
+        height: 8vw;
+        margin-right: 4vw;
+    }
+
+    .resume-description-right-1 img{
+        height: 8vw;
+        margin-right: 4vw;
+    }
+
+    .skill-div{
+        height: 80vw;
+    }
+
+    .resume-card-grid{
+        grid-template-columns: 25% 25% 25% 25%;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .resume-description-right-2-know{
+        height: 70vw;
+        padding-top: 6vw;
+        padding-bottom: 0vw;
+
+    }
+
+    .know-list{
+        font-size: 4.5vw;
+        margin-left: 4vw;
+        /* margin-top: 4vw; */
+        
+    }
+
+    .language-div{
+        height: 54vw;
+        /* border: 1px solid red; */
+        border: none;
+        width: 79vw;
+        padding-top: 0.1vw;
+        padding-bottom: 1.5vw;
+    }
+
+    .language-div-positioning{
+        padding-left: 0px;
+        width: 60vw;
+        height: 40vw;
+        /* border: 1px solid red; */
+
+    }
+
+    .lang-list-description{
+        font-size: 4.5vw;
+        margin-bottom: 1.2vw;
+    }
+
+    .lang-list-circle{
+        width: 80vw;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .lang-list-circle-divs{
+        height: 5vw;
+        width: 5vw;
+        margin-right: 1.8vw;
+        margin-bottom: 2.5vw;
+    }
+
+    .education-div{
+        height: 146.8vw;
+    }
+
+    .quote-section-color-div{
+       display: none;
+    }
+
+    .quote-section-color-div-for-responsive{
+        display: grid;
+        grid-template-columns: 100%;
+        width: 89.4vw;
+        height: 15vw;
+        margin-top: 5vw;
+    }
+
+    .quote-section{
+        font-size: 3.7vw;
+    }
+}
+
+@media only screen and (min-width:417px) and (max-width:800px){
+
+    .resume-headings{
+        width: 87.6vw;
+        /* border-right: none; */
+    }
+
+    .resume-description-left-1,.resume-description-right-1{
+        width: 87.6vw;
+        /* border-right: none; */
+
+    }
+
+    .resume-description-left-2{
+        width: 89.6vw;
+        /* border-right: none; */
+    }
+
+    .resume-description-right-2{
+        /* border-right: none; */
+        border: none;
+    }
+}
+
+@media only screen and (min-width:357px) and (max-width:680px){
+
+    .resume-description{
+        width: 90.2vw;
+    }
+
+    .resume-description-main-div{
+        width: 90.25vw;
+    }
+    
+}
+
+@media only screen and (max-width:417px){
+    .resume-headings{
+        width: 87.5vw;
+    }
+
+    .resume-description-left-1,.resume-description-right-1{
+        width: 87.5vw;
+        /* border-right: none; */
+
+    }
+
+    .resume-description-left-2{
+        width: 89.5vw;
+        /* border-right: none; */
+    }
+
+    .resume-description-left-2{
+        width: 89.5vw;
+        /* border-right: none; */
+    }
+
+    .resume-description-right-2{
+        /* border-right: none; */
+        border: none;
+    }
+}
+
+@media only screen and (min-width:522px) and (max-width:525px){
+    .resume-headings{
+        width: 87.65vw;
+    }
+}
+
+@media(max-width:525px){
+    .resume-headings{
+        width: 87.7vw;
+    }
+}
+
+@media only screen and (min-width:668px) and (max-width:677px){
+    .resume-headings{
+        width: 87.9vw;
+    }
+}
+
+@media only screen and (min-width:653px) and (max-width:660px){
+    .resume-headings{
+        width: 87.8vw;
+    }
+}
+
+@media only screen and (min-width:653px) and (max-width:654px){
+    .resume-headings{
+        width: 87.7vw;
+    }
+}
+
+@media(max-width:553px){
+    .resume-headings{
+        width: 87.75vw;
+    }
+}
+
+
+
+
+
+
+
+
+/* .............for responsive design ........ */

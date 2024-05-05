@@ -1,0 +1,110 @@
+.experience-card-main-div{
+    border: 1px solid #8750f7;
+    /* padding-top: 0.5vw; */
+    overflow-y: auto;
+    height: 43.2vw;
+    /* width: 20vw; */
+}
+
+.border-div{
+    /* border-right: 1px solid #8750f7; */
+    border: 1px solid #8750f7;
+
+}
+
+.slider-color-margin-top-div{
+    height: 1.5vw;
+    background-color: #2a1454;
+    position: sticky;
+    top: 0px;
+    width: 21.39vw;
+    margin-bottom: -0.8vw;
+    /* border: 1px solid red; */
+}
+
+.slider-color-margin-bottom-div{
+    height: 1.5vw;
+    background-color: #2a1454;
+    position: sticky;
+    /* top: 0.1vw; */
+    bottom: ovw;
+    width: 21.39vw;
+    /* border: 1px solid red; */
+}
+
+.title-section{
+    /* border: 1px solid red; */
+    margin-left: 2vw;
+    font-size: 1.5vw;
+    margin-bottom: 0.5vw;
+    padding-top: 1.5vw;
+}
+
+.description-section-experience-card{
+    /* border: 1px solid red; */
+    margin-left: 2vw;
+    font-size: 0.95vw;
+    margin-bottom: 0.8vw;
+}
+
+.certificate-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.certificate-section img{
+    height: 12vw;
+    width: 18vw;
+    margin-bottom: 1.5vw;
+}
+
+/* .experience-card-main-div-responsive{
+    display: none;
+} */
+
+
+
+
+
+@media only screen and (max-width:800px){
+
+    .experience-card-main-div{
+        display: flex;
+        height: 59vw;
+    }
+
+    .slider-color-margin-top-div{
+        display: none;
+    }
+
+    /* .experience-card-main-div-responsive{
+        display: flex;
+    } */
+
+    .border-div{
+        /* display: flex; */
+    }
+
+    .title-section{
+        /* border: 1px solid red; */
+        width: 54vw;
+        font-size: 4.7vw;
+        margin-bottom: 1.5vw;
+    }
+
+    .description-section-experience-card{
+        border: 1px solid #8750f7;
+        font-size: 3.5vw;
+        margin-left: 0px;
+        width: 34vw;
+        margin: auto;
+    }
+
+    .certificate-section img{
+        height: 35vw;
+        width: 50vw;
+        margin-top: 2vw;
+    }
+
+}

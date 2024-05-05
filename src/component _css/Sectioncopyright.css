@@ -1,0 +1,38 @@
+.copyright-bar{
+    /* border: 1px solid red; */
+    display: flex;
+    font-family: "Sora", sans-serif;
+    font-size: 1.3vw;
+    font-weight: bold;
+    width: 99.34vw;
+    height: 3.5vw;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 7vw;
+    background-image: linear-gradient(to right, #a277f9 0%, #190540 100%);
+}
+
+
+
+@media only screen and (max-width:800px){
+
+    .copyright-bar{
+        font-size: 4vw;
+        height: 10vw;
+        position: relative;
+        right: 1vw;
+    }
+}
+
+
+@media only screen and (min-width:801px) and (max-width:1050px){
+
+    .copyright-bar{
+        font-size: 2vw;
+        height: 5vw;
+        position: relative;
+        right: 1vw;
+        width: 101vw;
+    }
+}

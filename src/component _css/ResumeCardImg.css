@@ -1,0 +1,45 @@
+.resume-card-main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    /* border: 1px solid red; */
+    /* margin-bottom: -1vw; */
+}
+
+.resume-card-total-div{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.coding-card-img-positioning-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume-card-img{
+    height: 3.5vw;
+    /* height: 3vw; */
+    margin-bottom: 0.4vw;
+}
+
+.resume-card-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+}
+
+
+@media only screen and (max-width:800px){
+
+    .resume-card-img{
+        height: 13vw;
+    }
+
+    .resume-card-title{
+        font-size: 3.9vw;
+    }
+}
