@@ -63,11 +63,11 @@ function App() {
 
   return (
     <>
-      <HashRouter>
+      <HashRouter basename='reactwebsite'>
         {/* <Navbar /> */}
         {/* <HambargarMenu/> */}
         <Routes>
-          <Route exact path='/' element={<Homepagebody />} />
+          <Route exact path='/reactwebsite' element={<Homepagebody />} />
           <Route exact path='/Home' element={<Homepagebody />} />
           <Route exact path='/Education' element={<Education />} />
           <Route exact path='/Resume' element={<Resume />} />
