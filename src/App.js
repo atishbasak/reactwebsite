@@ -41,6 +41,7 @@ import Blog from './components/Blog';
 
 
 import {
+  HashRouter,
   BrowserRouter,
   Routes,
   Route,
@@ -63,11 +64,11 @@ function App() {
 
   return (
     <>
-      <BrowserRouter basename='/PortfolioWebsite'>
+      <HashRouter>
         {/* <Navbar /> */}
         {/* <HambargarMenu/> */}
         <Routes>
-          <Route exact path='/PortfolioWebsite' element={<Homepagebody />} />
+          <Route exact path='/' element={<Homepagebody />} />
           <Route exact path='/Home' element={<Homepagebody />} />
           <Route exact path='/Education' element={<Education />} />
           <Route exact path='/Resume' element={<Resume />} />
@@ -80,7 +81,7 @@ function App() {
           <Route exact path='*' element={<Page404custom />} />
         </Routes>
         {/* <Login/> */}
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
