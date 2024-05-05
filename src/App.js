@@ -42,7 +42,6 @@ import Blog from './components/Blog';
 
 import {
   HashRouter,
-  BrowserRouter,
   Routes,
   Route,
 } from "react-router-dom";
